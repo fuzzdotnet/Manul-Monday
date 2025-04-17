@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D83791EC2DCD4628A9BDB5E /* Pods_ManulMonday.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 236D300A06D3E72D5469426C /* Pods_ManulMonday.framework */; };
+		1A1A1A1A1A1A1A1A1A1A1A1A /* ManulMondayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2B2B2B2B2B2B2B2B2B2B2B /* ManulMondayApp.swift */; };
+		1A1A1A1B1A1A1A1B1A1A1A1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2B2B2C2B2B2B2C2B2B2B2C /* ContentView.swift */; };
+		1A1A1A1C1A1A1A1C1A1A1A1C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2B2B2D2B2B2B2D2B2B2B2D /* User.swift */; };
+		1A1A1A1D1A1A1A1D1A1A1A1D /* Manul.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2B2B2E2B2B2B2E2B2B2B2E /* Manul.swift */; };
+		1A1A1A1E1A1A1A1E1A1A1A1E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2B2B2F2B2B2B2F2B2B2B2F /* Item.swift */; };
+		1A1A1A1F1A1A1A1F1A1A1A1F /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2B2B302B2B2B302B2B2B30 /* Quiz.swift */; };
+		1A1A1A201A1A1A201A1A1A20 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2B2B312B2B2B312B2B2B31 /* AuthenticationService.swift */; };
+		1A1A1A211A1A1A211A1A1A21 /* QuizService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2B2B322B2B2B322B2B2B32 /* QuizService.swift */; };
+		1A1A1A221A1A1A221A1A1A22 /* StoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2B2B332B2B2B332B2B2B33 /* StoreService.swift */; };
+		1A1A1A231A1A1A231A1A1A23 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2B2B342B2B2B342B2B2B34 /* LoginView.swift */; };
+		1A1A1A241A1A1A241A1A1A24 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2B2B352B2B2B352B2B2B35 /* SignUpView.swift */; };
+		1A1A1A251A1A1A251A1A1A25 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2B2B362B2B2B362B2B2B36 /* HomeView.swift */; };
+		1A1A1A261A1A1A261A1A1A26 /* ManulView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2B2B372B2B2B372B2B2B37 /* ManulView.swift */; };
+		1A1A1A271A1A1A271A1A1A27 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2B2B382B2B2B382B2B2B38 /* QuizView.swift */; };
+		1A1A1A281A1A1A281A1A1A28 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2B2B392B2B2B392B2B2B39 /* StoreView.swift */; };
+		1A1A1A291A1A1A291A1A1A29 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2B2B3A2B2B2B3A2B2B2B3A /* ProfileView.swift */; };
+		1A1A1A2A1A1A1A2A1A1A1A2A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2B2B3B2B2B2B3B2B2B2B3B /* OnboardingView.swift */; };
+		1A1A1A2B1A1A1A2B1A1A1A2B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B2B2B3C2B2B2B3C2B2B2B3C /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		146BF6B227426868A762A5C4 /* Pods-ManulMonday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManulMonday.release.xcconfig"; path = "Target Support Files/Pods-ManulMonday/Pods-ManulMonday.release.xcconfig"; sourceTree = "<group>"; };
+		236D300A06D3E72D5469426C /* Pods_ManulMonday.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManulMonday.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2B2B2B2B2B2B2B2B2B2B2B /* ManulMondayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManulMondayApp.swift; sourceTree = "<group>"; };
+		2B2B2B2C2B2B2B2C2B2B2B2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B2B2B2D2B2B2B2D2B2B2B2D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2B2B2B2E2B2B2B2E2B2B2B2E /* Manul.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manul.swift; sourceTree = "<group>"; };
+		2B2B2B2F2B2B2B2F2B2B2B2F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		2B2B2B302B2B2B302B2B2B30 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		2B2B2B312B2B2B312B2B2B31 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		2B2B2B322B2B2B322B2B2B32 /* QuizService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizService.swift; sourceTree = "<group>"; };
+		2B2B2B332B2B2B332B2B2B33 /* StoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreService.swift; sourceTree = "<group>"; };
+		2B2B2B342B2B2B342B2B2B34 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		2B2B2B352B2B2B352B2B2B35 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		2B2B2B362B2B2B362B2B2B36 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2B2B2B372B2B2B372B2B2B37 /* ManulView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManulView.swift; sourceTree = "<group>"; };
+		2B2B2B382B2B2B382B2B2B38 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		2B2B2B392B2B2B392B2B2B39 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
+		2B2B2B3A2B2B2B3A2B2B2B3A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		2B2B2B3B2B2B2B3B2B2B2B3B /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		2B2B2B3C2B2B2B3C2B2B2B3C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3C3C3C3C3C3C3C3C3C3C3C3C /* ManulMonday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManulMonday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C3C3C3D3C3C3C3D3C3C3C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52344B2E7284535D04C0C55E /* Pods-ManulMonday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManulMonday.debug.xcconfig"; path = "Target Support Files/Pods-ManulMonday/Pods-ManulMonday.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D4D4D4D4D4D4D4D4D4D4D4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D83791EC2DCD4628A9BDB5E /* Pods_ManulMonday.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49FED4264ACEF3965AF169C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				236D300A06D3E72D5469426C /* Pods_ManulMonday.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E5E5E5E5E5E5E5E5E5E5E5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C3C3C3C3C3C3C3C3C3C3C3C /* ManulMonday.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E5E5E5F5E5E5E5F5E5E5E5F /* ManulMonday */ = {
+			isa = PBXGroup;
+			children = (
+				5E5E5E605E5E5E605E5E5E60 /* Sources */,
+				5E5E5E615E5E5E615E5E5E61 /* Resources */,
+				3C3C3C3D3C3C3C3D3C3C3C3D /* Info.plist */,
+			);
+			path = ManulMonday;
+			sourceTree = "<group>";
+		};
+		5E5E5E605E5E5E605E5E5E60 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5E5E5E625E5E5E625E5E5E62 /* App */,
+				5E5E5E635E5E5E635E5E5E63 /* Models */,
+				5E5E5E645E5E5E645E5E5E64 /* Views */,
+				5E5E5E655E5E5E655E5E5E65 /* Services */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5E5E5E615E5E5E615E5E5E61 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B2B2B3C2B2B2B3C2B2B2B3C /* GoogleService-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5E5E5E625E5E5E625E5E5E62 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2B2B2B2B2B2B2B2B2B2B2B2B /* ManulMondayApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5E5E5E635E5E5E635E5E5E63 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B2B2B2D2B2B2B2D2B2B2B2D /* User.swift */,
+				2B2B2B2E2B2B2B2E2B2B2B2E /* Manul.swift */,
+				2B2B2B2F2B2B2B2F2B2B2B2F /* Item.swift */,
+				2B2B2B302B2B2B302B2B2B30 /* Quiz.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5E5E5E645E5E5E645E5E5E64 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5E5E5E665E5E5E665E5E5E66 /* Authentication */,
+				5E5E5E675E5E5E675E5E5E67 /* Home */,
+				5E5E5E685E5E5E685E5E5E68 /* Manul */,
+				5E5E5E695E5E5E695E5E5E69 /* Quiz */,
+				5E5E5E6A5E5E5E6A5E5E5E6A /* Store */,
+				5E5E5E6B5E5E5E6B5E5E5E6B /* Profile */,
+				5E5E5E6C5E5E5E6C5E5E5E6C /* Onboarding */,
+				2B2B2B2C2B2B2B2C2B2B2B2C /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5E5E5E655E5E5E655E5E5E65 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2B2B2B312B2B2B312B2B2B31 /* AuthenticationService.swift */,
+				2B2B2B322B2B2B322B2B2B32 /* QuizService.swift */,
+				2B2B2B332B2B2B332B2B2B33 /* StoreService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5E5E5E665E5E5E665E5E5E66 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				2B2B2B342B2B2B342B2B2B34 /* LoginView.swift */,
+				2B2B2B352B2B2B352B2B2B35 /* SignUpView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		5E5E5E675E5E5E675E5E5E67 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2B2B2B362B2B2B362B2B2B36 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5E5E5E685E5E5E685E5E5E68 /* Manul */ = {
+			isa = PBXGroup;
+			children = (
+				2B2B2B372B2B2B372B2B2B37 /* ManulView.swift */,
+			);
+			path = Manul;
+			sourceTree = "<group>";
+		};
+		5E5E5E695E5E5E695E5E5E69 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				2B2B2B382B2B2B382B2B2B38 /* QuizView.swift */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
+		5E5E5E6A5E5E5E6A5E5E5E6A /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				2B2B2B392B2B2B392B2B2B39 /* StoreView.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		5E5E5E6B5E5E5E6B5E5E5E6B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2B2B2B3A2B2B2B3A2B2B2B3A /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		5E5E5E6C5E5E5E6C5E5E5E6C /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				2B2B2B3B2B2B2B3B2B2B2B3B /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		6F6F6F6F6F6F6F6F6F6F6F6F = {
+			isa = PBXGroup;
+			children = (
+				5E5E5E5F5E5E5E5F5E5E5E5F /* ManulMonday */,
+				5E5E5E5E5E5E5E5E5E5E5E5E /* Products */,
+				8C01D03625E22F45708ECABF /* Pods */,
+				49FED4264ACEF3965AF169C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8C01D03625E22F45708ECABF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52344B2E7284535D04C0C55E /* Pods-ManulMonday.debug.xcconfig */,
+				146BF6B227426868A762A5C4 /* Pods-ManulMonday.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7G7G7G7G7G7G7G7G7G7G7G7G /* ManulMonday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8H8H8H8H8H8H8H8H8H8H8H8H /* Build configuration list for PBXNativeTarget "ManulMonday" */;
+			buildPhases = (
+				B36923B70966F36579606BDE /* [CP] Check Pods Manifest.lock */,
+				9I9I9I9I9I9I9I9I9I9I9I9I /* Sources */,
+				4D4D4D4D4D4D4D4D4D4D4D4D /* Frameworks */,
+				AJAJAJAJAJAJAJAJAJAJAJAJ /* Resources */,
+				E9E86BF8ACED9FBC36407213 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ManulMonday;
+			productName = ManulMonday;
+			productReference = 3C3C3C3C3C3C3C3C3C3C3C3C /* ManulMonday.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BKBKBKBKBKBKBKBKBKBKBKBK /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7G7G7G7G7G7G7G7G7G7G7G7G = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = CLCLCLCLCLCLCLCLCLCLCLCL /* Build configuration list for PBXProject "ManulMonday" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F6F6F6F6F6F6F6F6F6F6F6F;
+			productRefGroup = 5E5E5E5E5E5E5E5E5E5E5E5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7G7G7G7G7G7G7G7G7G7G7G7G /* ManulMonday */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AJAJAJAJAJAJAJAJAJAJAJAJ /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1A1A2B1A1A1A2B1A1A1A2B /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B36923B70966F36579606BDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ManulMonday-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9E86BF8ACED9FBC36407213 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ManulMonday/Pods-ManulMonday-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ManulMonday/Pods-ManulMonday-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ManulMonday/Pods-ManulMonday-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9I9I9I9I9I9I9I9I9I9I9I9I /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1A1A1A1A1A1A1A1A1A1A1A /* ManulMondayApp.swift in Sources */,
+				1A1A1A1B1A1A1A1B1A1A1A1B /* ContentView.swift in Sources */,
+				1A1A1A1C1A1A1A1C1A1A1A1C /* User.swift in Sources */,
+				1A1A1A1D1A1A1A1D1A1A1A1D /* Manul.swift in Sources */,
+				1A1A1A1E1A1A1A1E1A1A1A1E /* Item.swift in Sources */,
+				1A1A1A1F1A1A1A1F1A1A1A1F /* Quiz.swift in Sources */,
+				1A1A1A201A1A1A201A1A1A20 /* AuthenticationService.swift in Sources */,
+				1A1A1A211A1A1A211A1A1A21 /* QuizService.swift in Sources */,
+				1A1A1A221A1A1A221A1A1A22 /* StoreService.swift in Sources */,
+				1A1A1A231A1A1A231A1A1A23 /* LoginView.swift in Sources */,
+				1A1A1A241A1A1A241A1A1A24 /* SignUpView.swift in Sources */,
+				1A1A1A251A1A1A251A1A1A25 /* HomeView.swift in Sources */,
+				1A1A1A261A1A1A261A1A1A26 /* ManulView.swift in Sources */,
+				1A1A1A271A1A1A271A1A1A27 /* QuizView.swift in Sources */,
+				1A1A1A281A1A1A281A1A1A28 /* StoreView.swift in Sources */,
+				1A1A1A291A1A1A291A1A1A29 /* ProfileView.swift in Sources */,
+				1A1A1A2A1A1A1A2A1A1A1A2A /* OnboardingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DMDMDMDMDMDMDMDMDMDMDMDM /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DMDMDMDNDMDMDMDNDMDMDMDN /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ENENENENENENENENENENENEN /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52344B2E7284535D04C0C55E /* Pods-ManulMonday.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ManulMonday/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fuzz.ManulMonday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FOFOFOFOFOFOFOFOFOFOFOFO /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 146BF6B227426868A762A5C4 /* Pods-ManulMonday.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ManulMonday/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fuzz.ManulMonday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8H8H8H8H8H8H8H8H8H8H8H8H /* Build configuration list for PBXNativeTarget "ManulMonday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ENENENENENENENENENENENEN /* Debug */,
+				FOFOFOFOFOFOFOFOFOFOFOFO /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CLCLCLCLCLCLCLCLCLCLCLCL /* Build configuration list for PBXProject "ManulMonday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DMDMDMDMDMDMDMDMDMDMDMDM /* Debug */,
+				DMDMDMDNDMDMDMDNDMDMDMDN /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BKBKBKBKBKBKBKBKBKBKBKBK /* Project object */;
+}
